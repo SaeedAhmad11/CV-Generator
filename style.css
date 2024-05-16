@@ -1,0 +1,134 @@
+/* Reset CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Layout */
+.cv-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    padding: 20px;
+}
+
+#left-column {
+    width: 70%;
+}
+
+#right-column {
+    width: 30%;
+    background-color: #0077ff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Form Styles */
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button, .btn {
+    width: 200px;
+    padding: 10px;
+    background-color: #0051ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    background-color: #007bff;
+}
+
+button:hover, .btn:hover {
+    background-color: #f5c907;
+}
+
+/* Additional Styles */
+.profile-picture {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px 0;
+}
+
+.progress-container {
+    width: 150px;
+    margin: 10px 0;
+}
+
+.education-entry,
+.experience-entry,
+.language-entry,
+.project-entry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.education-entry input,
+.experience-entry input,
+.experience-entry textarea,
+.language-entry input,
+.project-entry input,
+.project-entry textarea {
+    flex: 1;
+    min-width: 150px;
+}
+
+.language {
+    margin: 0;
+}
+
+.progress {
+    background-color: #c6c3c3;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 15px;
+    background-color: #f5c907;
+}
+
+#download-pdf {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

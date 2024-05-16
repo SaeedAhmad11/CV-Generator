@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Display</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cv-layout">
+            <div id="left-column" class="column">
+                <div id="cv-output-left" class="cv-output"></div>
+            </div>
+            <div id="right-column" class="column">
+                <div id="cv-output-right" class="cv-output"></div>
+            </div>
+        </div>
+        <button id="download-pdf">Download as PDF</button>
+    </div>
+
+    <script src="cv.js"></script>
+</body>
+</html>
